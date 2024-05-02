@@ -6,8 +6,7 @@ function calcAverageCalories(days) {
   if (totalCal === 0) {
     return 0;
   }
-  const averageCal = totalCal / days.length;
-  return averageCal;
+  return totalCal / days.length;
 }
 
 console.log(
